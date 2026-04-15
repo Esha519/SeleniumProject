@@ -69,5 +69,5 @@ class TestLogin:
         login.enter_password("132")
         login.click_login()
 
-        time.sleep(5)
+        time.sleep(4)
         assert driver.current_url == "http://119.148.31.69:8050/kroy/dashboard"
